@@ -14,6 +14,16 @@
 		89E28D7C286D8B39000C12C8 /* TTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E28D7B286D8B39000C12C8 /* TTests.swift */; };
 		89E28D86286D8B39000C12C8 /* TUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E28D85286D8B39000C12C8 /* TUITests.swift */; };
 		89E28D88286D8B39000C12C8 /* TUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E28D87286D8B39000C12C8 /* TUITestsLaunchTests.swift */; };
+		89E28D9E286D9473000C12C8 /* SF-Compact-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D95286D9473000C12C8 /* SF-Compact-Display-Regular.otf */; };
+		89E28D9F286D9473000C12C8 /* SF-Compact-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D96286D9473000C12C8 /* SF-Compact-Display-Black.otf */; };
+		89E28DA0286D9473000C12C8 /* SF-Compact-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D97286D9473000C12C8 /* SF-Compact-Display-Semibold.otf */; };
+		89E28DA1286D9473000C12C8 /* SF-Compact-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D98286D9473000C12C8 /* SF-Compact-Display-Bold.otf */; };
+		89E28DA2286D9473000C12C8 /* SF-Compact-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D99286D9473000C12C8 /* SF-Compact-Display-Ultralight.otf */; };
+		89E28DA3286D9473000C12C8 /* SF-Compact-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D9A286D9473000C12C8 /* SF-Compact-Display-Thin.otf */; };
+		89E28DA4286D9473000C12C8 /* SF-Compact-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D9B286D9473000C12C8 /* SF-Compact-Display-Medium.otf */; };
+		89E28DA5286D9473000C12C8 /* SF-Compact-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D9C286D9473000C12C8 /* SF-Compact-Display-Heavy.otf */; };
+		89E28DA6286D9473000C12C8 /* SF-Compact-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E28D9D286D9473000C12C8 /* SF-Compact-Display-Light.otf */; };
+		89F4EA43286F46410056EBA4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89F4EA45286F46410056EBA4 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,18 @@
 		89E28D81286D8B39000C12C8 /* TUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E28D85286D8B39000C12C8 /* TUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUITests.swift; sourceTree = "<group>"; };
 		89E28D87286D8B39000C12C8 /* TUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89E28D95286D9473000C12C8 /* SF-Compact-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Regular.otf"; sourceTree = "<group>"; };
+		89E28D96286D9473000C12C8 /* SF-Compact-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Black.otf"; sourceTree = "<group>"; };
+		89E28D97286D9473000C12C8 /* SF-Compact-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Semibold.otf"; sourceTree = "<group>"; };
+		89E28D98286D9473000C12C8 /* SF-Compact-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Bold.otf"; sourceTree = "<group>"; };
+		89E28D99286D9473000C12C8 /* SF-Compact-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		89E28D9A286D9473000C12C8 /* SF-Compact-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Thin.otf"; sourceTree = "<group>"; };
+		89E28D9B286D9473000C12C8 /* SF-Compact-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Medium.otf"; sourceTree = "<group>"; };
+		89E28D9C286D9473000C12C8 /* SF-Compact-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Heavy.otf"; sourceTree = "<group>"; };
+		89E28D9D286D9473000C12C8 /* SF-Compact-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Light.otf"; sourceTree = "<group>"; };
+		89E28DA9286D96B3000C12C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F4EA44286F46410056EBA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		89F4EA46286F46580056EBA4 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +116,9 @@
 		89E28D69286D8B38000C12C8 /* T */ = {
 			isa = PBXGroup;
 			children = (
+				89F4EA40286F45AE0056EBA4 /* Resources */,
+				89E28DA9286D96B3000C12C8 /* Info.plist */,
+				89E28D94286D943D000C12C8 /* Fonts */,
 				89E28D6A286D8B38000C12C8 /* TApp.swift */,
 				89E28D6C286D8B38000C12C8 /* ContentView.swift */,
 				89E28D6E286D8B39000C12C8 /* Assets.xcassets */,
@@ -125,6 +150,30 @@
 				89E28D87286D8B39000C12C8 /* TUITestsLaunchTests.swift */,
 			);
 			path = TUITests;
+			sourceTree = "<group>";
+		};
+		89E28D94286D943D000C12C8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				89E28D96286D9473000C12C8 /* SF-Compact-Display-Black.otf */,
+				89E28D98286D9473000C12C8 /* SF-Compact-Display-Bold.otf */,
+				89E28D9C286D9473000C12C8 /* SF-Compact-Display-Heavy.otf */,
+				89E28D9D286D9473000C12C8 /* SF-Compact-Display-Light.otf */,
+				89E28D9B286D9473000C12C8 /* SF-Compact-Display-Medium.otf */,
+				89E28D95286D9473000C12C8 /* SF-Compact-Display-Regular.otf */,
+				89E28D97286D9473000C12C8 /* SF-Compact-Display-Semibold.otf */,
+				89E28D9A286D9473000C12C8 /* SF-Compact-Display-Thin.otf */,
+				89E28D99286D9473000C12C8 /* SF-Compact-Display-Ultralight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		89F4EA40286F45AE0056EBA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89F4EA45286F46410056EBA4 /* Localizable.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +262,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 89E28D5E286D8B38000C12C8;
 			productRefGroup = 89E28D68286D8B38000C12C8 /* Products */;
@@ -231,8 +281,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E28DA1286D9473000C12C8 /* SF-Compact-Display-Bold.otf in Resources */,
+				89F4EA43286F46410056EBA4 /* Localizable.strings in Resources */,
 				89E28D72286D8B39000C12C8 /* Preview Assets.xcassets in Resources */,
+				89E28DA3286D9473000C12C8 /* SF-Compact-Display-Thin.otf in Resources */,
+				89E28DA2286D9473000C12C8 /* SF-Compact-Display-Ultralight.otf in Resources */,
+				89E28D9F286D9473000C12C8 /* SF-Compact-Display-Black.otf in Resources */,
 				89E28D6F286D8B39000C12C8 /* Assets.xcassets in Resources */,
+				89E28D9E286D9473000C12C8 /* SF-Compact-Display-Regular.otf in Resources */,
+				89E28DA5286D9473000C12C8 /* SF-Compact-Display-Heavy.otf in Resources */,
+				89E28DA0286D9473000C12C8 /* SF-Compact-Display-Semibold.otf in Resources */,
+				89E28DA6286D9473000C12C8 /* SF-Compact-Display-Light.otf in Resources */,
+				89E28DA4286D9473000C12C8 /* SF-Compact-Display-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +353,18 @@
 			targetProxy = 89E28D82286D8B39000C12C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89F4EA45286F46410056EBA4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89F4EA44286F46410056EBA4 /* en */,
+				89F4EA46286F46580056EBA4 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		89E28D89286D8B39000C12C8 /* Debug */ = {
@@ -414,11 +486,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"T/Preview Content\"";
+				DEVELOPMENT_TEAM = N3YL74K7TP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = T/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,6 +506,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hao-wei-wu.T";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,11 +518,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"T/Preview Content\"";
+				DEVELOPMENT_TEAM = N3YL74K7TP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = T/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +538,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hao-wei-wu.T";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
