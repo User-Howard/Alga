@@ -8,89 +8,60 @@
 import SwiftUI
 
 
-struct MemberView: View {
-    var body: some View {
-        NavigationView {
-            ZStack {
-                Color.blue
-            }.navigationTitle(NSLocalizedString("Member", comment: ""))
-        }
-    }
-}
-struct TaskView: View {
-    var body: some View {
-        NavigationView {
-            ZStack {
-                Color.blue
-            }.navigationTitle(NSLocalizedString("Task", comment: ""))
-        }
-    }
-}
-struct HomeView: View {
-    var body: some View {
-        NavigationView {
-            ZStack {
-                Color.gray
-                VStack{
-                    Image(systemName: "person")
-                    Image(systemName: "person.fill")
-                }
-            }.navigationTitle(NSLocalizedString("Home", comment: ""))
-        }
-    }
-}
-struct ShopView: View {
-    var body: some View {
-        NavigationView {
-            ZStack {
-                Color.blue
-            }.navigationTitle(NSLocalizedString("Shop", comment: ""))
-        }
-    }
-}
-struct RankView: View {
-    var body: some View {
-        NavigationView {
-            ZStack {
-                Color.blue
-            }.navigationTitle(NSLocalizedString("Rank", comment: ""))
-        }
-    }
-}
 struct ContentView: View {
+    @State private var selection = 2
     var body: some View {
-        TabView {
-            MemberView()
-                .tabItem{
-                    Image(systemName: "person")
-                    Text(NSLocalizedString("Member", comment: ""))
-                }
-            TaskView()
-                .tabItem{
-                    Image(systemName: "star")
-                    Text(NSLocalizedString("Task", comment: ""))
-                }
-            HomeView()
-                .tabItem{
-                    Image(systemName: "house")
-                    Text(NSLocalizedString("Home", comment: ""))
-                }
-            ShopView()
-                .tabItem{
-                    Image(systemName: "bag")
-                    Text(NSLocalizedString("Shop", comment: ""))
-                }
-            RankView()
-                .tabItem{
-                    Image(systemName: "rosette")
-                    Text(NSLocalizedString("Rank", comment: ""))
-                }
-        }
+        NavigationView {
+            TabView(selection: $selection) {
+                MemberView()
+                    .tabItem{
+                        Image(systemName: "person")
+                        Text(NSLocalizedString("Member", comment: ""))
+                    }
+                    .tag(0)
+                TaskView()
+                    .tabItem{
+                        Image(systemName: "star")
+                        Text(NSLocalizedString("Task", comment: ""))
+                    }
+                    .tag(1)
+                HomeView()
+                    .tabItem{
+                        Image(systemName: "house")
+                        Text(NSLocalizedString("Home", comment: ""))
+                    }
+                    .tag(2)
+                ShopView()
+                    .tabItem{
+                        Image(systemName: "bag")
+                        Text(NSLocalizedString("Shop", comment: ""))
+                    }
+                    .tag(3)
+                RankView()
+                    .tabItem{
+                        Image(systemName: "rosette")
+                        Text(NSLocalizedString("Rank", comment: ""))
+                    }
+                    .tag(4)
+            }.onAppear {
+                UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+                AppDelegate.orientationLock = .portrait // And making sure it stays that way
+            }.onDisappear {
+                AppDelegate.orientationLock = .all // Unlocking the rotation when leaving the view
+            }
+        }.navigationBarTitleDisplayMode(.inline)
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 11")
+        /*
+        ContentView()
+            .previewDevice("iPhone 13 Pro Max")
+        ContentView()
+            .previewDevice("iPhone 8")*/
     }
 }

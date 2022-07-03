@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 100 100" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<g id="圖層2" vectornator:layerName="圖層2">
+<path d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50C100 77.6142 77.6142 100 50 100C22.3858 100 0 77.6142 0 50Z" fill="#97d5f1" fill-opacity="0.5" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M30.0139 83.1706L20.6204 63.4132C20.6204 63.4132 11.0096 42.1277 33.8096 25.6382C39.7686 20.1955 48.7111 11.5801 49.5968 10.1916C50.9469 11.6753 60.5875 24.6 62.3317 31.5117C57.6975 35.0079 30.0139 83.1706 30.0139 83.1706Z" fill="#05aa96" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M30.0829 83.0302C30.0829 83.0302 60.837 86.4587 73.0973 69.9902C85.802 54.8935 81.6894 34.1655 79.8716 26.0875C53.8415 50.6226 30.0829 83.0302 30.0829 83.0302Z" fill="#00cc76" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M30.1091 83.0242C30.1091 83.0242 30.1377 62.0983 30.2204 62.1659C30.3032 62.2334 29.6062 40.0942 55.791 33.8297C59.1535 32.7359 77.8043 27.4452 79.6394 25.8193C77.3771 30.9316 70.3716 54.8638 30.1091 83.0242Z" fill="#a5e888" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>
