@@ -49,19 +49,14 @@ struct ContentView: View {
             }.onDisappear {
                 AppDelegate.orientationLock = .all // Unlocking the rotation when leaving the view
             }
-        }.navigationBarTitleDisplayMode(.inline)
+        }
         
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        
         ContentView()
-            .previewDevice("iPhone 11")
-        /*
-        ContentView()
-            .previewDevice("iPhone 13 Pro Max")
-        ContentView()
-            .previewDevice("iPhone 8")*/
     }
 }

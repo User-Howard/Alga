@@ -50,14 +50,14 @@
 		8981359D2871A7020054AF76 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 		8981359F2871A7220054AF76 /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
 		898135A32871C4420054AF76 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		89E28D67286D8B38000C12C8 /* T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E28D67286D8B38000C12C8 /* Alga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E28D6A286D8B38000C12C8 /* TApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TApp.swift; sourceTree = "<group>"; };
 		89E28D6C286D8B38000C12C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89E28D6E286D8B39000C12C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89E28D71286D8B39000C12C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		89E28D77286D8B39000C12C8 /* TTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E28D77286D8B39000C12C8 /* AlgaAlgaests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgaAlgaests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E28D7B286D8B39000C12C8 /* TTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTests.swift; sourceTree = "<group>"; };
-		89E28D81286D8B39000C12C8 /* TUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E28D81286D8B39000C12C8 /* AlgaUIAlgaests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgaUIAlgaests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E28D85286D8B39000C12C8 /* TUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUITests.swift; sourceTree = "<group>"; };
 		89E28D87286D8B39000C12C8 /* TUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		89E28D98286D9473000C12C8 /* SF-Compact-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Bold.otf"; sourceTree = "<group>"; };
@@ -104,9 +104,9 @@
 		89E28D68286D8B38000C12C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89E28D67286D8B38000C12C8 /* T.app */,
-				89E28D77286D8B39000C12C8 /* TTests.xctest */,
-				89E28D81286D8B39000C12C8 /* TUITests.xctest */,
+				89E28D67286D8B38000C12C8 /* Alga.app */,
+				89E28D77286D8B39000C12C8 /* AlgaAlgaests.xctest */,
+				89E28D81286D8B39000C12C8 /* AlgaUIAlgaests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89E28D66286D8B38000C12C8 /* T */ = {
+		89E28D66286D8B38000C12C8 /* Alga */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89E28D8B286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "T" */;
+			buildConfigurationList = 89E28D8B286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "Alga" */;
 			buildPhases = (
 				89E28D63286D8B38000C12C8 /* Sources */,
 				89E28D64286D8B38000C12C8 /* Frameworks */,
@@ -188,14 +188,14 @@
 			);
 			dependencies = (
 			);
-			name = T;
+			name = Alga;
 			productName = T;
-			productReference = 89E28D67286D8B38000C12C8 /* T.app */;
+			productReference = 89E28D67286D8B38000C12C8 /* Alga.app */;
 			productType = "com.apple.product-type.application";
 		};
-		89E28D76286D8B39000C12C8 /* TTests */ = {
+		89E28D76286D8B39000C12C8 /* AlgaAlgaests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89E28D8E286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "TTests" */;
+			buildConfigurationList = 89E28D8E286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "AlgaAlgaests" */;
 			buildPhases = (
 				89E28D73286D8B39000C12C8 /* Sources */,
 				89E28D74286D8B39000C12C8 /* Frameworks */,
@@ -206,14 +206,14 @@
 			dependencies = (
 				89E28D79286D8B39000C12C8 /* PBXTargetDependency */,
 			);
-			name = TTests;
+			name = AlgaAlgaests;
 			productName = TTests;
-			productReference = 89E28D77286D8B39000C12C8 /* TTests.xctest */;
+			productReference = 89E28D77286D8B39000C12C8 /* AlgaAlgaests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		89E28D80286D8B39000C12C8 /* TUITests */ = {
+		89E28D80286D8B39000C12C8 /* AlgaUIAlgaests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89E28D91286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "TUITests" */;
+			buildConfigurationList = 89E28D91286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "AlgaUIAlgaests" */;
 			buildPhases = (
 				89E28D7D286D8B39000C12C8 /* Sources */,
 				89E28D7E286D8B39000C12C8 /* Frameworks */,
@@ -224,9 +224,9 @@
 			dependencies = (
 				89E28D83286D8B39000C12C8 /* PBXTargetDependency */,
 			);
-			name = TUITests;
+			name = AlgaUIAlgaests;
 			productName = TUITests;
-			productReference = 89E28D81286D8B39000C12C8 /* TUITests.xctest */;
+			productReference = 89E28D81286D8B39000C12C8 /* AlgaUIAlgaests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -252,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89E28D62286D8B38000C12C8 /* Build configuration list for PBXProject "T" */;
+			buildConfigurationList = 89E28D62286D8B38000C12C8 /* Build configuration list for PBXProject "Alga" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -266,9 +266,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89E28D66286D8B38000C12C8 /* T */,
-				89E28D76286D8B39000C12C8 /* TTests */,
-				89E28D80286D8B39000C12C8 /* TUITests */,
+				89E28D66286D8B38000C12C8 /* Alga */,
+				89E28D76286D8B39000C12C8 /* AlgaAlgaests */,
+				89E28D80286D8B39000C12C8 /* AlgaUIAlgaests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,12 +340,12 @@
 /* Begin PBXTargetDependency section */
 		89E28D79286D8B39000C12C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 89E28D66286D8B38000C12C8 /* T */;
+			target = 89E28D66286D8B38000C12C8 /* Alga */;
 			targetProxy = 89E28D78286D8B39000C12C8 /* PBXContainerItemProxy */;
 		};
 		89E28D83286D8B39000C12C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 89E28D66286D8B38000C12C8 /* T */;
+			target = 89E28D66286D8B38000C12C8 /* Alga */;
 			targetProxy = 89E28D82286D8B39000C12C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -490,6 +490,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = T/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Alga;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -501,7 +502,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "hao-wei-wu.T";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -524,6 +525,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = T/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Alga;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -535,7 +537,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "hao-wei-wu.T";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -560,7 +562,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T.app/T";
+				TEST_HOST = "$(BUILAlga_PRODUCAlgaS_DIR)/Alga.app/Alga";
 			};
 			name = Debug;
 		};
@@ -579,7 +581,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T.app/T";
+				TEST_HOST = "$(BUILAlga_PRODUCAlgaS_DIR)/Alga.app/Alga";
 			};
 			name = Release;
 		};
@@ -620,7 +622,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89E28D62286D8B38000C12C8 /* Build configuration list for PBXProject "T" */ = {
+		89E28D62286D8B38000C12C8 /* Build configuration list for PBXProject "Alga" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89E28D89286D8B39000C12C8 /* Debug */,
@@ -629,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89E28D8B286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "T" */ = {
+		89E28D8B286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "Alga" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89E28D8C286D8B39000C12C8 /* Debug */,
@@ -638,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89E28D8E286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "TTests" */ = {
+		89E28D8E286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "AlgaAlgaests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89E28D8F286D8B39000C12C8 /* Debug */,
@@ -647,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89E28D91286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "TUITests" */ = {
+		89E28D91286D8B39000C12C8 /* Build configuration list for PBXNativeTarget "AlgaUIAlgaests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89E28D92286D8B39000C12C8 /* Debug */,

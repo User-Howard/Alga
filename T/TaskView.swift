@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct TaskView: View {
+    
+    @State private var isPlaying: Bool = true;
+    
     var body: some View {
         
         ZStack {
             Color.accentColor
         }
-        
     }
 }
 
 struct TaskView_Previews: PreviewProvider {
     static var previews: some View {
         TaskView()
+            .previewDevice("iPhone 11")
+            
     }
 }
